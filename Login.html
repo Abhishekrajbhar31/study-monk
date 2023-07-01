@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+    html {
+        background-color: #ACC8E5;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="register.html">Register</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="login">
+    <h1>Login to the Online Recruitment Solution</h1>
+
+    <form action="login.php" method="POST">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required><br>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required><br>
+
+      <input type="submit" value="Login" class="btn">
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Online Recruitment Solution. All rights reserved.</p>
+  </footer>
+</body>
+</html>
